@@ -1,0 +1,907 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+/*----------- Start Home---------- */
+body{
+    overflow-x: auto;
+    width: 100%;
+}
+.hero{    
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/image1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #f9004d;
+
+}
+nav ul li{
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+transition: .4s;
+}
+
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: #000;
+    margin: 20PX 0PX 20px;
+    font-size: 75px;
+}
+
+span{
+    color: #f9004d;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: #000000;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.newslaater form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslaater form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+
+.newslaater form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 15px #000, 0px 0px 15px #640000;
+    top: 6px;
+    right: 6px;
+}
+
+/*----------- End Home---------- */
+
+/*----------- Start Services---------- */
+
+
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color: #f9004d;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pra p{
+   color: white;
+   font-size: 16px;
+   line-height: 24px;
+   margin-bottom: 40px; 
+}
+
+.card .button{
+    background-color: #f9004d;
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: .7s;
+}
+
+/*----------- End Services---------- */
+
+/*----------- Start Work---------- */
+
+
+
+.work{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    background-color: #101010;
+    border: 1px solid #f9004d;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: .5s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-img img{
+    width: 100%;
+}
+
+.project-card .project-img:hover{
+    opacity: 0.9;
+}    
+
+
+.project-info{
+    color: #fff;
+    padding: .5em;
+    font-size: 0.8em;
+    
+}
+
+.project-title{
+    color: #f9004d;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.More-details{
+    text-decoration: none;
+    color: #f9004d;
+}
+
+.project-title .More-details:hover{
+    color: #fff;
+}
+
+/*----------- End Work---------- */
+
+/*----------- Start Footer---------- */
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.p2{
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social a:hover{
+    transform: scale(1.1);
+    transition: .4s;
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    cursor: pointer;
+}
+.social a:nth-child(1){
+    position: relative;
+    left: 1em;
+    bottom:1.8em ;
+}
+
+.social a:nth-child(2){
+    position: relative;
+    left: 1.5em;
+}
+
+.social a:nth-child(3){
+    position: relative;
+    left: 2.5em;
+}
+
+.social a:nth-child(4){
+    position: relative;
+    bottom: 2em;
+    left: 3em;
+}
+
+.social a:nth-child(5){
+    position: relative;
+    top: 3em;
+    right: 8em;
+}
+
+.cr{
+    position: absolute;
+    color: #f9004d;
+    font-size: 17px;
+    bottom: 35px;
+}
+
+/*----------- End Footer---------- */
+
+
+
+@media screen and (max-width: 767px){
+
+    .btn{
+        position: relative;
+        left: -75px;
+        bottom: 89px;
+        font-size: 16px;
+        width: 77%;
+        border-radius: 90px;
+    } 
+    .newslaater form input:first-child {
+        width: 70%;
+    }
+    .newslaater form input:last-child{
+        right: 120px;
+        padding: 10px 15px;
+    }
+
+     .service .title h2{
+         position: relative;
+         right: 10px;
+         width: 300px;
+         font-size: 50px;
+         
+     }
+     .card{
+         position: relative;
+         height: 360px;
+         width: 270px;
+     }
+     .work .title h2{
+         position: relative;
+         right: 9px;
+         width: 250px;
+         font-size: 40px;
+         
+     }
+    
+ }
+    
+@media screen and (max-width:500px){
+
+    .hero .logo {
+        position: relative;
+        bottom: 90px;
+        right: 10px;
+        font-size: 23px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    nav ul li:nth-child(1){
+        bottom: 47px;
+        right: 115px;
+        
+    }
+
+    nav ul li:nth-child(2){
+        right: 54px;
+        bottom: 85px;
+    }
+        
+    nav ul li:nth-child(3){
+        bottom: 124px;
+        left: 34px;
+        
+    }
+    nav ul li:nth-child(4){
+        left: 120px;
+        bottom: 162px;
+        
+    }
+    nav ul li:nth-child(5){
+        left: 186px;
+        bottom: 199px;
+    }
+    .btn{
+        left: -11px;
+        bottom: 93px;
+        font-size: 10px;
+        width: 67%;
+        padding: 4px 18px;
+    }
+    .content{
+        top: 45%;
+    }
+    .content h4{
+        position: relative;
+        font-size: 15px;
+        bottom: 25px;
+    }
+    .content h1{
+        position: relative;
+        font-size: 35px;
+        bottom: 20px;
+    }
+    .content h3{
+        font-size: 20px;
+    }
+    .newslaater{
+        position: relative;
+        right: 25px;
+    }
+
+}
+
+
+@media screen and (main-width:350px) and (max-width:397px){
+    .btn {
+        left: -88px;
+        bottom: 93px;
+        font-size: 9px;
+        width: 70%;
+        padding: 4px 6px;
+    }
+    
+}
+
+
+
+
+
+
+
+/*@media screen and (max-width:375px){
+    
+
+    .logo{
+       position: relative;
+       bottom: 77px;
+       right: 10px;
+       font-size: 22px;
+       
+    }
+    nav ul li:nth-child(1){
+        bottom: 37px;
+        right: 100px;
+        font-size: 16px;
+    }
+
+    nav ul li:nth-child(2){
+        right: 42px;
+        bottom: 75px;
+        font-size: 16px;
+    }
+    nav ul li:nth-child(3){
+        bottom: 113px;
+        left: 15px;
+        font-size: 16px;
+    }
+    nav ul li:nth-child(4){
+        left: 94px;
+        bottom: 152px;
+        font-size: 16px;
+    }
+    nav ul li:nth-child(5){
+        left: 160px;
+        bottom: 191px;
+        font-size: 16px;
+    }
+    .btn{
+        position: relative;
+        left: 10px;
+        bottom: 80px;
+        font-size: 12px;
+        width: 100%;
+        border-radius: 90px;
+        padding: 6px 10px;
+    }
+    nav ul li a{
+        position: relative;
+        right: 15px;
+    }
+    .content h4{
+        position: relative; 
+        bottom: 130px;
+        right: 40px;
+    }
+    .content h1{
+        position: relative;
+        bottom: 125px;
+        right: 20px;
+        font-size: 50px;
+    }
+    .content h1 span{
+        position: relative;
+        top: 60px;
+        right: 85px;
+    }
+    .content h3{
+        position: relative;
+        bottom: 55px;
+        right: 30px;
+        font-size: 23px;
+    }
+    .newslaater{
+        position: relative;
+        bottom: 45px;
+        right: 50px;
+        padding-left: 20px;
+        margin-right: 50px;
+    }
+    .about{
+        height: 104vh;
+    }
+    .about img{
+        position: relative;
+        left: 40px;
+        bottom: 50px;
+        height: 250px;
+        width: 200px;
+        margin-bottom: 800px;  
+    }
+    .about-text h2{
+        position: relative;
+        bottom: 230px;
+        left: 70px;
+        font-size: 27px;
+    }
+    .about-text h5{
+        position: relative;
+        bottom: 75px;
+        right: 85px;
+        font-size: 21px;
+    } .about-text p{
+        position: relative;
+        bottom: 50px;
+        right: 100px;   
+        width: 300px;
+    }
+    button{
+        position: relative;
+        bottom: 85px;
+        right: 30px;
+    }
+    .service .title h2{
+        position: relative;
+        right: 10px;
+        width: 300px;
+        font-size: 50px;
+        
+    }
+    .card{
+        position: relative;
+        height: 360px;
+        width: 270px;
+    }
+    .work .title h2{
+        position: relative;
+        right: 9px;
+        width: 250px;
+        font-size: 40px;
+        
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:376px) and (max-width:411px){
+    
+    .logo{
+        position: relative;
+        bottom: 77px;
+        right: 10px;
+        font-size: 22px;
+        
+     }
+     nav ul li:nth-child(1){
+         flex-direction: column;
+         bottom: 37px;
+         right: 100px;
+         font-size: 16px;
+     }
+ 
+     nav ul li:nth-child(2){
+        flex-direction: column;
+         right: 42px;
+         bottom: 75px;
+         font-size: 16px;
+     }
+     nav ul li:nth-child(3){
+        flex-direction: column;
+         bottom: 113px;
+         left: 15px;
+         font-size: 16px;
+     }
+     nav ul li:nth-child(4){
+        flex-direction: column;
+         left: 94px;
+         bottom: 152px;
+         font-size: 16px;
+     }
+     nav ul li:nth-child(5){
+        flex-direction: column;
+         left: 160px;
+         bottom: 191px;
+         font-size: 16px;
+     }
+     .btn{
+         position: relative;
+         left: 10px;
+         bottom: 80px;
+         font-size: 12px;
+         width: 100%;
+         border-radius: 90px;
+         padding: 6px 10px;
+     }
+     nav ul li a{
+         position: relative;
+         right: 15px;
+     }
+     .content h4{
+         position: relative; 
+         bottom: 130px;
+         right: 40px;
+     }
+     .content h1{
+         position: relative;
+         bottom: 125px;
+         right: 20px;
+         font-size: 50px;
+     }
+     .content h1 span{
+         position: relative;
+         top: 60px;
+         right: 85px;
+     }
+     .content h3{
+         position: relative;
+         bottom: 55px;
+         right: 30px;
+         font-size: 23px;
+     }
+     .newslaater{
+         position: relative;
+         bottom: 45px;
+         right: 50px;
+         padding-left: 20px;
+         margin-right: 50px;
+     }
+     .about{
+         height: 104vh;
+     }
+     .about img{
+         position: relative;
+         left: 40px;
+         bottom: 50px;
+         height: 250px;
+         width: 200px;
+         margin-bottom: 800px;  
+     }
+     .about-text h2{
+         position: relative;
+         bottom: 235px;
+         left: 75px;
+         font-size: 30px;
+     }
+     .about-text h5{
+         position: relative;
+         bottom: 110px;
+         right: 85px;
+         font-size: 23px;
+     } .about-text p{
+         position: relative;
+         bottom: 100px;
+         right: 100px;   
+         width: 300px;
+     }
+     button{
+         position: relative;
+         bottom: 135px;
+         left: 60px;
+     }
+     .service .title h2{
+         position: relative;
+         right: 10px;
+         width: 300px;
+         font-size: 50px;
+         
+     }
+     .card{
+         position: relative;
+         height: 360px;
+         width: 270px;
+     }
+     .work .title h2{
+         position: relative;
+         right: 9px;
+         width: 250px;
+         font-size: 40px;
+         
+     }
+
+
+}
+
+
+@media screen and (min-width:412px) and (max-width: 520px){
+
+    .logo{
+        position: relative;
+        bottom: 77px;
+        right: 10px;
+        font-size: 22px;
+        
+     }
+     nav ul li:nth-child(1){
+         bottom: 37px;
+         right: 100px;
+         font-size: 16px;
+     }
+ 
+     nav ul li:nth-child(2){
+         right: 42px;
+         bottom: 75px;
+         font-size: 16px;
+     }
+     nav ul li:nth-child(3){
+         bottom: 113px;
+         left: 15px;
+         font-size: 16px;
+     }
+     nav ul li:nth-child(4){
+         left: 94px;
+         bottom: 152px;
+         font-size: 16px;
+     }
+     nav ul li:nth-child(5){
+         left: 160px;
+         bottom: 191px;
+         font-size: 16px;
+     }
+     .btn{
+         position: relative;
+        left: -29px;
+        bottom: 80px;
+        font-size: 14px;
+        margin-left: 107px;
+        width: 96%;
+        border-radius: 425px;
+        padding: 13px 26px;
+     }
+     nav ul li a{
+         position: relative;
+         left: 20px;
+     }
+     .content h4{
+         position: relative; 
+         bottom: 130px;
+         right: 40px;
+     }
+     .content h1{
+         position: relative;
+         bottom: 125px;
+         right: 20px;
+         font-size: 50px;
+     }
+     .content h1 span{
+         position: relative;
+         top: 60px;
+         right: 85px;
+     }
+     .content h3{
+         position: relative;
+         bottom: 55px;
+         right: 30px;
+         font-size: 23px;
+     }
+     .newslaater{
+         position: relative;
+         bottom: 45px;
+         right: 50px;
+         padding-left: 20px;
+         margin-right: 50px;
+     }
+     .about{
+         height: 104vh;
+     }
+     .about img{
+         position: relative;
+         left: 40px;
+         bottom: 50px;
+         height: 250px;
+         width: 200px;
+         margin-bottom: 800px;  
+     }
+     .about-text h2{
+         position: relative;
+         bottom: 235px;
+         left: 75px;
+         font-size: 30px;
+     }
+     .about-text h5{
+         position: relative;
+         bottom: 110px;
+         right: 85px;
+         font-size: 23px;
+     } .about-text p{
+         position: relative;
+         bottom: 100px;
+         right: 100px;   
+         width: 300px;
+     }
+     button{
+         position: relative;
+         bottom: 135px;
+         left: 60px;
+     }
+     .service .title h2{
+         position: relative;
+         right: 10px;
+         width: 300px;
+         font-size: 50px;
+         
+     }
+     .card{
+         position: relative;
+         height: 360px;
+         width: 270px;
+     }
+     .work .title h2{
+         position: relative;
+         right: 9px;
+         width: 250px;
+         font-size: 40px;
+         
+     }
+}*/
